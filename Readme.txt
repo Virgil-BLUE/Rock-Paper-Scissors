@@ -1,0 +1,1 @@
+This repo is designed to be a console controlled game of rock paper scissors. 
