@@ -16,6 +16,8 @@ function playRound(humanChoice, computerChoice) {
 
     computerChoice = getComputerChoice()
 
+    let Answer = null
+
     // This section converts the computer answer(float) to rock, paper, or scissor.
 
     if (computerChoice >= .6666) {
@@ -32,19 +34,21 @@ function playRound(humanChoice, computerChoice) {
 
     // This section prevents any grammatical errors from popping up.
 
-    if (humanChoice = 'Rock' || 'rock' || 'ROCK' ) {
-         Answer = Rock
+    if (humanChoice == 'Rock' || 'rock' || 'ROCK' ) {
+        Answer = 'Rock'
     }
 
-    else if (humanChoice = 'Paper' || 'paper' || 'PAPER' ) {
-        Answer = Paper
+    else if (humanChoice == 'Paper' || 'paper' || 'PAPER' ) {
+        Answer = 'Paper'
     }
 
-    else if (humanChoice = Scissors || scissors || SCISSORS) {
-        Answer = Scissors
+    else if (humanChoice == 'Scissors' || 'scissors' || 'SCISSORS') {
+        Answer = 'Scissors'
     }
 
-    else (Alert('That is not a valid answer!'))
+    else(alert('That is not a valid answer!'))
+
+    console.log(Answer)
 }
 
 playRound()
