@@ -86,3 +86,5 @@ if (computerScore > humanScore) {
 } else if (computerScore < humanScore) {
     alert ('Congratulations, you won!')
 }
+
+// Complete
