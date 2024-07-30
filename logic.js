@@ -10,7 +10,7 @@ let computerScore = 0;
 
 let gameRounds = 0;
 
-// Determines Computer Move 
+// Determines Computer Move
 
 function getComputerChoice() {
 
